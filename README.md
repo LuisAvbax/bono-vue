@@ -71,6 +71,6 @@ java -jar target/my-spring-boot-backend-1.0.0.jar
 ## Troubleshooting
 
 - **Port conflicts**: If you already have a service running on port 8080, change the port in `application.properties` (for example, `server.port=9090`) or stop the other service.
-- **Database issues**: If you are using an H2 in-memory database, check http://localhost:8080/h2-console (if enabled) to see tables and data. Make sure `spring.h2.console.enabled=true` in your properties.
+- **Database issues**: If you are using an H2 in-memory database, check http://localhost:8080/h2-console to see tables and data. Make sure `spring.h2.console.enabled=true` in your properties.
 - **CORS errors**: If you're accessing this API from a different origin (for example, a Vue frontend on another port), configure CORS in your Spring Boot app or use a proxy.
 ```
