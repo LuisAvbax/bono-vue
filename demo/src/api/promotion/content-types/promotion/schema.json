@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promotions",
+  "info": {
+    "singularName": "promotion",
+    "pluralName": "promotions",
+    "displayName": "Promotion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idPromotion": {
+      "type": "uid",
+      "required": true
+    },
+    "infoPromo": {
+      "type": "string"
+    },
+    "imgPromo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "weekDay": {
+      "type": "integer"
+    },
+    "relevance": {
+      "type": "integer"
+    },
+    "codeCity": {
+      "type": "integer"
+    },
+    "expirationDate": {
+      "type": "datetime"
+    },
+    "urlPromotion": {
+      "type": "string"
+    },
+    "Categoria": {
+      "type": "string"
+    }
+  }
+}
